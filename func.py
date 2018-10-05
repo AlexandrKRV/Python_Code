@@ -1,6 +1,6 @@
 import os,paramiko,requests
 
-
+#запись события в SPlunk
 def writejsontosplunk (jsontext,adr,port_,token_):
     url = adr
     port = port_
